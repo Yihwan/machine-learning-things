@@ -67,7 +67,7 @@ model.add(Dense(10, activation='softmax'))
 model.summary()
 ```
 
-```
+```markdown
 # OUTPUT
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -89,7 +89,7 @@ Trainable params: 109,386
 Non-trainable params: 0
 ```
 
-### Compiling a model
+### Compiling the model
 ```python
 model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 # verbosity 0, 2, 1
@@ -154,5 +154,8 @@ Trainable params: 225,034
 Non-trainable params: 0
 ```
 
-## Miscellaneous
-*
+## Using AWS to train
+
+* EC2 > Launch Instance > Deep Learning AMI (Ubuntu) SELECT > use `p3` (tesla) > next > Public IP Address enable > launch > launch > `keras` from dropdown
+* `ssh -i keras.pem ubunti@54.191.70.76` (use the actual public ip)
+* `conda env list`
