@@ -1,5 +1,5 @@
 # Introduction to Deep Learning
-Python, Keras, Tenserflow, AWES. Guided by [Chyld Medford](https://github.com/chyld/intro-deep-learning).
+Python, Keras, Tensorflow, AWS. Guided by [Chyld Medford](https://github.com/chyld/intro-deep-learning).
 
 ## Machine Learning
 
