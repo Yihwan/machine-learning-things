@@ -7,3 +7,4 @@ What would you say if I told you there is a app on the market that tell you if y
 
 ## Notes
 * [`deep-learning-intro`](deep-learning-intro/notes.md) - Python, Keras, Tensorflow, AWS. Guided by Chyld Medford.
+* [`cs231n`](cs231n/notes.md) - Convolutional Neural Networks for Visual Recognition. Self-guided work through Stanford's curriculum.
